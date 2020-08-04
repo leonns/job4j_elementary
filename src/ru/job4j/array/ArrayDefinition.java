@@ -5,5 +5,14 @@ public class ArrayDefinition {
         short[] ages = new short[10];
         String[] surnames = new String[100500];
         float[] prices = new float[40];
+        String[] names = new String[4];
+        names[0] = "Tom";
+        names[1] = "Max";
+        names[2] = "Petr";
+        names[3] = "John";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
